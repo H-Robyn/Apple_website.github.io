@@ -197,7 +197,7 @@ html::-webkit-scrollbar {
   position: absolute;
   width: 49%;
   height: 580px;
-  background-image: url("../Images/hero_fitness.jpg");
+  background-image: url("./Images/hero_fitness.jpg");
   background-repeat: no-repeat;
   background-size: 190% 570px;
   background-position: center;
