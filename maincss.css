@@ -1,0 +1,229 @@
+body {
+  /* box-sizing: border-box; */
+  margin: 0px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #fbfbfb;
+}
+
+/* To Hide Vertical-Scrollbar but get it keep functioning*/
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+#logo_container {
+  height: 44px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  backdrop-filter: saturate(200%) blur(200px);
+}
+
+#bag_logo {
+  background-image: url("../Images/apple_bag.png");
+  height: 35px;
+  width: 13px;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 3px;
+  left: 16px;
+  cursor: pointer;
+}
+
+#apple_logo {
+  background-image: url("../Images/apple_logo.png");
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  cursor: pointer;
+}
+
+#search_logo {
+  background-image: url("../Images/search_logo.png");
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#product_list {
+  overflow: hidden;
+  background-color: rgb(219, 215, 215);
+  height: 48px;
+  top: 44px;
+  width: 100%;
+  position: relative;
+  visibility: hidden;
+}
+
+#product_list ul a {
+  float: left;
+  text-decoration: none;
+}
+
+#product_list ul a li {
+  list-style: none;
+  margin-left: 65px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #847474;
+}
+
+#product_list ul a li:hover {
+  color: #484848;
+}
+
+#iPhone13Pro_img_container {
+  background-image: url("../Images/iPhone13_Pro_ori.jpg");
+  background-repeat: no-repeat;
+  height: 565px;
+  width: 100%;
+  position: relative;
+  background-size: 100% 1155px;
+  background-size: cover;
+  background-position: center center;
+  /* adjust it when making sub product list */
+  margin-top: 80px;
+}
+
+.iPhone13Pro_text {
+  line-height: 1em;
+  width: 400px;
+  margin: auto;
+  padding: 10px;
+}
+
+#iPhone13Pro_heading {
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 530;
+  letter-spacing: -0.005em;
+  text-align: center;
+}
+
+#iPhone13Pro_subheading {
+  font-size: 28px;
+  text-align: center;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: 0.004em;
+  margin-top: -38px;
+}
+
+#iPhone13_img_container {
+  background-image: url("../Images/iPhone13.jpg");
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  height: 565px;
+  background-size: cover;
+  background-position: center;
+}
+
+.iPhone13_text {
+  line-height: 1em;
+  width: 400px;
+  margin: auto;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+#iPhone13_heading {
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 530;
+  letter-spacing: -0.005em;
+  text-align: center;
+  color: #f5f5f7;
+}
+
+#iPhone13_subheading {
+  font-size: 28px;
+  text-align: center;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: 0.004em;
+  margin-top: -38px;
+  color: #fec2eb;
+}
+
+#promo_products {
+  height: 1760px;
+  width: 100%;
+  margin-top: 10px;
+  display: grid;
+}
+
+#promo_watch {
+  width: 49%;
+  height: 580px;
+  background-image: url("../Images/hero_watch.jpg");
+  background-repeat: no-repeat;
+  background-size: 190% 570px;
+  background-position: center;
+  margin-left: 10px;
+}
+
+#promo_macbookpro {
+  position: absolute;
+  width: 49%;
+  height: 580px;
+  background-image: url("../Images/hero_macbookpro.jpg");
+  background-repeat: no-repeat;
+  background-size: 190% 570px;
+  background-position: center;
+  right: 10px;
+}
+
+#promo_airpods {
+  width: 49%;
+  height: 580px;
+  background-image: url("../Images/hero_airpods.jpg");
+  background-repeat: no-repeat;
+  background-size: 190% 570px;
+  background-position: center;
+  margin: 577px 0px 0px 10px;
+  position: absolute;
+}
+
+#promo_fitness {
+  position: absolute;
+  width: 49%;
+  height: 580px;
+  background-image: url("../Images/hero_fitness.jpg");
+  background-repeat: no-repeat;
+  background-size: 190% 570px;
+  background-position: center;
+  margin-top: 577px;
+  right: 10px;
+}
+
+#promo_iPadMini {
+  width: 49%;
+  height: 580px;
+  background-image: url("../Images/hero_ipad_mini.jpg");
+  background-repeat: no-repeat;
+  background-size: 190% 570px;
+  background-position: center;
+  margin: 1154px 0px 0px 10px;
+  position: absolute;
+}
+
+#promo_severance {
+  position: absolute;
+  width: 49%;
+  height: 580px;
+  background-image: url("../Images/hero_severance.jpg");
+  background-repeat: no-repeat;
+  background-size: 190% 570px;
+  background-position: center;
+  margin-top: 1154px;
+  right: 10px;
+}
