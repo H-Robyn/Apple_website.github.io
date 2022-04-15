@@ -1,0 +1,1120 @@
+body {
+  margin: 0px;
+  font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #fff;
+    color: #1d1d1f;
+    font-style: normal;
+}
+
+#logo_container {
+  height: 44px;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.73);
+  width: 100%;
+  backdrop-filter: saturate(200%) blur(200px);
+}
+
+#bag_logo {
+  background-image: url("../Images/apple_bag.png");
+  background-repeat: no-repeat;
+  height: 55px;
+  width: 25px;
+  position: absolute;
+  margin: 3px 0px 0px 16px;
+  cursor: pointer;
+}
+
+#bag_list {
+  width: 280px;
+  height: 320px;
+  border: 2px solid rgb(212, 211, 211);
+  border-radius: 20px;
+  position: absolute;
+  top: 45px;
+  left: -10px;
+  padding: 0px 0px 0px 0px;
+  display: none;
+  background-color: #fbfbfb;
+  box-shadow: 5px 5px 5px rgb(224, 224, 224);
+}
+
+#bag_logo:hover #bag_list {
+  display: block;
+}
+
+#bag_status {
+  color: #6e6e73;
+  padding: 35px 0px;
+  margin: 0px 0px;
+  text-align: center;
+  letter-spacing: -0.016em;
+  font-size: 15px;
+}
+
+#bag_list ul {
+  margin: 0px 0px 0px 0px;
+  padding-left: 0px;
+}
+
+#bag_list ul li {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+#bag_list ul li a {
+  text-decoration: none;
+  border-top: 1px solid #d2d2d7;
+  color: #06c;
+  display: block;
+  line-height: 44px;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0px 0px 0px 30px;
+  width: 85%;
+}
+
+#bag_list ul li a:hover {
+  text-decoration: underline;
+}
+
+#bag {
+  background-image: url("../Images/blue_bag.png");
+  background-repeat: no-repeat;
+  background-position: 2px;
+}
+
+#saved {
+  background-image: url("../Images/saved_logo.png");
+  background-repeat: no-repeat;
+  background-position: 2px;
+}
+
+#order {
+  background-image: url("../Images/orders_logo.png");
+  background-repeat: no-repeat;
+  background-position: 2px;
+}
+
+#account {
+  background-image: url("../Images/account_logo.png");
+  background-repeat: no-repeat;
+  background-position: 2px;
+}
+
+#sign {
+  background-image: url("../Images/signin_logo.png");
+  background-repeat: no-repeat;
+  background-position: 2px;
+}
+
+#apple_logo {
+  background-image: url("../Images/apple_logo.png");
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  left: 50%;
+  top: 10px;
+  position: absolute;
+}
+
+#search_logo {
+  background-image: url("../Images/search_logo.png");
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#product_list {
+  background-color: rgb(236, 233, 233);
+  height: 48px;
+  width: 100%;
+}
+
+ #product_list ul {
+  margin-top: 12px;
+  padding: 0px;
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  /* border: 1px solid green; */
+}
+
+ #product_list ul li {
+  display: inline;
+  list-style: none;
+  margin-top: 0px;
+  margin-left: 70px;
+}
+
+ #product_list ul li a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #888888;
+  text-decoration: none;
+}
+
+#product_list ul li a:hover {
+  color: #535050;
+  font-weight: 530;
+} 
+
+
+
+#mac_products {
+  height: 100px;
+  width: 100%;
+}
+
+#mac_products ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 0px;
+  width: 85%;
+  height: 80%;
+  margin: 10px auto;
+  /* border: 1px solid red; */
+}
+
+#mac_products ul li {
+  margin: 0px 0px 10px 0px;
+  height: 100%;
+  width: 100%;
+}
+
+#mac_products ul li a {
+  text-decoration: none;
+}
+
+#mac_products ul li a figure {
+  margin: 0px auto;
+  width: 100%;
+}
+
+#mac_products ul li a span {
+  text-align: center;
+  width: 100%;
+  display: block;
+  font-size: 12px;
+  color: black;
+  margin-top: 8px;
+}
+
+#macbook_air_logo {
+  background-image: url("../Mac/Images/macbook_air.png");
+  background-repeat: no-repeat;
+  height: 54px;
+  width: 52px;
+  background-position: center;
+  background-size: 52px 54px;
+}
+
+#macbook_pro_logo {
+  background-image: url("../Mac/Images/macbook_pro.png");
+  background-repeat: no-repeat;
+  height: 54px;
+  width: 84px;
+  background-position: center;
+  background-size: 84px 54px;
+}
+#iMac24_logo {
+  background-image: url("../Mac/Images/imac_24.png");
+  background-repeat: no-repeat;
+  height: 54px;
+  width: 43px;
+  background-position: center;
+  background-size: 43px 54px;
+}
+#mac_mini_logo {
+  background-image: url("../Mac/Images/mac_mini.png");
+  background-repeat: no-repeat;
+  height: 54px;
+  width: 28px;
+  background-position: center;
+  background-size: 28px 54px;
+}
+#mac_studio_logo {
+  background-image: url("../Mac/Images/mac_studio.png");
+  background-repeat: no-repeat;
+  height: 54px;
+  width: 28px;
+  background-position: center;
+  background-size: 28px 54px;
+}
+
+#mac_pro_logo {
+  background-image: url("../Mac/Images/mac_pro.png");
+  background-repeat: no-repeat;
+  height: 54px;
+  width: 35px;
+  background-position: center;
+  background-size: 35px 54px;
+}
+
+#compare_logo {
+  background-image: url("../Mac/Images/mac_compare.png");
+  background-repeat: no-repeat;
+  height: 54px;
+  width: 45px;
+  background-position: center;
+  background-size: 52px 54px;
+}
+
+#displays_logo {
+  background-image: url("../Mac/Images/displays.png");
+  background-repeat: no-repeat;
+  height: 54px;
+  width: 72px;
+  background-position: center;
+  background-size: 72px 54px;
+}
+
+#accessories_logo {
+  background-image: url("../Mac/Images/mac_accessories.png");
+  background-repeat: no-repeat;
+  height: 54px;
+  width: 33px;
+  background-position: center;
+  background-size: 33px 54px;
+}
+
+#monterey_logo {
+  background-image: url("../Mac/Images/mac_os.png");
+  background-repeat: no-repeat;
+  height: 54px;
+  width: 35px;
+  background-position: center;
+  background-size: 35px 54px;
+}
+
+#shop_mac_logo {
+  background-image: url("../Mac/Images/shop_mac.png");
+  background-repeat: no-repeat;
+  height: 54px;
+  width: 103px;
+  background-position: center;
+  background-size: 103px 54px;
+}
+
+#mac_studio {
+  height: 650px;
+  width: 100%;
+  margin-top: 100px;
+  border-bottom: 10px solid #f5f5f7;
+  /* border: 1px solid red; */
+}
+
+.text_container {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.new_text {
+   font-weight: 400;
+    margin-bottom: 0.3em;
+    background: rgba(0,0,0,0);
+    color: #f56300;
+}
+
+
+.heading {
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 400;
+  letter-spacing: -.005em;
+  margin: 0px 0px 0px 0px;
+}
+
+.subheading {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 400;
+    letter-spacing: .007em;
+    margin: 0px 0px 0px 0px;
+}
+
+.price{
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    color: #424245;
+}
+
+#mac_studio_img {
+  background-image: url('../Mac/Images/mac_studio.jpg');
+  width: 470px;
+  height: 232px;
+  background-repeat: no-repeat;
+  background-size: 470px 232px; 
+  margin: 100px auto;
+}
+
+#studio_display {
+  margin-top: 50px;
+  height: 750px;
+  width: 100%;
+  border-bottom: 10px solid #f5f5f7;
+  /* border: 1px solid red; */
+}
+
+#studio_display_img {
+  background-image: url('../Mac/Images/studio_display.jpg');
+  width: 548px;
+  height: 422px;
+  background-size: 548px 422px; 
+  background-repeat: no-repeat;
+  margin: 100px auto;
+}
+
+#macbook_pro {
+  margin-top: 120px;
+  height: 630px;
+  width: 100%;
+  border-bottom: 10px solid #f5f5f7;
+  /* border: 1px solid red; */
+}
+
+#macbook_pro_img {
+  background-image: url('../Mac/Images/macbook_pro.jpg');
+  width: 834px;
+  height: 282px;
+  background-size: 834px 282px; 
+  background-repeat: no-repeat;
+  margin: 100px auto;
+}
+
+#compare_table {
+  height: 2000px;
+  width: 100%;
+  background-color: #f9f9fa;
+  /* border: 1px solid red; */
+}
+
+
+#compare_table_heading {
+  font-size: 48px;
+  line-height: 1.08349;
+  font-weight: 500;
+  letter-spacing: -.003em;
+  text-align: center;
+  width: 45%;
+  margin-top: 100px;
+  position: absolute;
+  /* work on left */
+  left: 400px;
+}
+
+#note_desk {
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  height: 3.17647em;
+  font-size: 17px;
+  text-align: center;
+  z-index: 1;
+  margin-top: 200px;
+}
+
+#note_desk ul {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  overflow-y: hidden; 
+   white-space: nowrap;
+  padding: 0 0 3.17647em;
+}
+
+
+#note_desk ul li {
+  display: inline-block;
+  padding-left: 60px;
+  border-bottom: 1px solid #d2d2d7;
+  list-style: none;
+  outline: none;
+}
+
+#note_desk ul li:first-child {
+  padding-left: 0;
+}
+
+
+#compare_table_product_container_mbook {
+  display: grid;
+  height: 1580px;
+  position: absolute;
+  margin-top: 330px;
+  width: 100%;
+  grid-template-columns: 0fr 0fr 0fr;
+  justify-content:space-evenly;
+  display: none;
+}
+
+.compare_table_macbook{
+  height: 1570px;
+  width: 300px;
+  border: 1px solid #cecece;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  border-radius: 10px;
+}
+
+.compare_table_macbook:hover {
+  box-shadow: 3px 3px 5px grey;
+  cursor: pointer;
+}
+
+#mba_img {
+  background-image: url('../Mac/Images/compare_mba.png');
+  width: 276px;
+  height: 167px;
+  background-size: 276px 167px;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0px auto;
+}
+
+.mbook_text {
+  position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #d2d2d7;;
+}
+
+#colors_options_mba {
+  background-image: url('../Mac/Images/compare_swatches_three_colors_mba.png');
+  width: 50px;
+    height: 14px;
+    background-size: 50px 14px;
+    background-repeat: no-repeat;
+}
+
+.mbook_heading {
+  font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 500;
+    letter-spacing: .009em;
+    margin: 0px; 
+}
+
+.mbook_price {
+  font-size: 15px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.016em;
+  margin: 5px 0px 30px 0px; 
+  color: #424245;
+}
+
+.mbook_chip_container {
+  margin-top: 40px;
+}
+
+.mbook_chip_img {
+  background-image: url('../Mac/Images/compare_icon_m1__mba.png');
+  width: 48px;
+  height: 44px;
+  background-size: 48px 44px;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.chip_text {
+  font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    text-align: center;
+    color: #424245;
+}
+
+.cpu_container {
+  margin-top: 40px;
+}
+
+.heading_cpu_core {
+  margin-top: 6px;
+  margin-bottom: 5px;
+  margin: auto;
+  font-size: 21px;
+  line-height: 1.19048;
+  font-weight: 400;
+  letter-spacing: .011em;
+  text-align: center;
+}
+
+.subheading_cpu {
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.016em;
+  width: 100%;
+  text-align: center;
+  margin: 3px;
+}
+
+.gpu_container {
+  margin-top: 40px;
+}
+
+.upto_heading {
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.016em;
+  color: #424245;
+  text-align: center;
+  margin: 0px;
+}
+
+.heading_gpu_core {
+  font-size: 21px;
+  line-height: 1.19048;
+  font-weight: 500;
+  letter-spacing: .011em;
+  text-align: center;
+  margin: 0px;
+}
+
+.subheading_gpu {
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.016em;
+  text-align: center;
+  margin: 0px;
+  color: #424245;
+}
+
+.subheading_gpu sup {
+  font-size: 10px;
+}
+
+.memory_container { 
+  margin-top: 40px;
+}
+
+.memory_mba {
+  background-image: url('../Mac/Images/compare_icon_unified_memory__mba.png');
+  width: 48px;
+  height: 44px;
+  background-size: 48px 44px;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.memory_subheading_mbook {
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.016em;
+  text-align: center;
+  margin-top: 10px;
+  color: #424245;
+}
+
+.storage_container {
+  margin-top: 40px;
+}
+
+.storage_size_heading {
+  font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 500;
+    letter-spacing: .011em;
+    text-align: center;
+    margin: 0px;
+}
+
+.storage_subheading {
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.020em;
+  text-align: center;
+  margin-top: 5px;
+  color: #424245;
+}
+
+.storage_subheading sup {
+  font-size: 10px;
+}
+
+.display_mbook_container {
+  margin-top: 40px;
+}
+
+.display_heading {
+  font-size: 21px;
+  line-height: 1.19048;
+  font-weight: 500;
+  letter-spacing: .011em;
+  text-align: center;
+  margin: 0px;
+}
+
+.display_subheading {
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.020em;
+  text-align: center;
+  margin-top: 5px;
+  color: #424245;
+}
+
+.display_subheading sup {
+  font-size: 10px;
+}
+
+.battery_mbook_container {
+  margin-top: 40px;
+}
+
+#battery_mba {
+  background-image: url("../Mac/Images/compare_icon_battery.png");
+  width: 48px;
+    height: 44px;
+    background-size: 48px 44px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.battery_subheading {
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.020em;
+  text-align: center;
+  margin-top: 5px;
+  color: #424245;
+}
+
+.battery_subheading sup {
+  font-size: 10px;
+}
+
+.camera_mbook_container {
+  margin-top: 40px;
+}
+
+.facetime_img {
+  background-image: url("../Mac/Images/compare_icon_camera.png");
+  width: 48px;
+  height: 44px;
+  background-size: 48px 44px;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.facetime_subheading {
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.020em;
+  text-align: center;
+  margin-top: 5px;
+  color: #424245;
+}
+
+.weight_mbook_container {
+  margin-top: 40px;
+}
+
+.weight_heading {
+  font-size: 21px;
+  line-height: 1.19048;
+  font-weight: 500;
+  letter-spacing: .011em;
+  text-align: center;
+  margin: 0px;
+}
+
+.weight_subheading {
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.020em;
+  text-align: center;
+  margin-top: 5px;
+  color: #424245;
+}
+
+
+.touchid_mbook_container {
+  margin-top: 40px;
+}
+
+.touchid_img {
+  width: 48px;
+  height: 44px;
+  background-size: 48px 44px;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+#touchid_img_mba_mbpro{
+  background-image: url("../Mac/Images/compare_icon_touchid.png");
+}
+
+.touchid_subheading {
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.020em;
+  text-align: center;
+  margin-top: 5px;
+  color: #424245;
+}
+
+#mbp13_img {
+  background-image: url('../Mac/Images/compare_mbp13.png');
+  width: 276px;
+  height: 167px;
+  background-size: 276px 167px;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0px auto;
+}
+
+#gpu_container_mbpro13 {
+  margin-top: 57px;
+}
+
+.colors_options_mbpro {
+  background-image: url('../Mac/Images/compare_swatches_two_colors.png');
+  width: 32px;
+  height: 14px;
+  background-size: 32px 14px;
+  background-repeat: no-repeat;
+}
+
+#touchid_touchbar_img {
+  background-image: url('../Mac/Images/compare_icon_touch_id_touch_bar.png');
+}
+
+#mbp1416_img {
+  background-image: url('../Mac/Images/compare_mbp14_and_16.png');
+  width: 276px;
+  height: 167px;
+  background-size: 276px 167px;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0px auto;
+}
+
+#mbpro1416_img {
+  background-image: url('../Mac/Images/compare_icon_m1_pro_max.png');
+  width: 90px;
+    height: 40px;
+    background-size: 90px 40px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+#cpu_container_mbpro1416{
+  margin-top: 12px;
+}
+
+#mbpro1416_upto {
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.016em;
+  color: #424245;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+}
+
+#heading_cpu_core_mbpro1416 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin: auto;
+  font-size: 21px;
+  line-height: 1.19048;
+  font-weight: 400;
+  letter-spacing: .011em;
+  text-align: center;
+}
+
+#compare_table_product_container_imac_mac {
+  display: grid;
+  height: 1550px;
+  position: absolute;
+  margin-top: 330px;
+  width: 100%;
+  grid-template-columns: 0fr 0fr 0fr 0fr;
+  justify-content:space-evenly;
+}
+
+.compare_table_imac_mac{
+  height: 1530px;
+  /* Adjust width */
+  width: 300px;
+  border-bottom: 1px solid #cecece;
+  border-top: 1px solid #cecece;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+ }
+
+#imac24_img {
+  background-image: url('../Mac/Images/compare_imac24.png');
+  width: 212px;
+  height: 176px;
+  background-size: 212px 176px;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0px auto;
+}
+
+.imac_mac_text {
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #d2d2d7;
+}
+
+#colors_options_imac24 {
+  background-image: url('../Mac/Images/compare_swatches_multicolor.png');
+  width: 124px;
+    height: 14px;
+    background-size: 124px 14px;
+    background-repeat: no-repeat;
+}
+
+.imac_mac_heading {
+  font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 500;
+    letter-spacing: .009em;
+    margin: 5px 0px 0px 0px; 
+}
+
+.imac_mac_price {
+  font-size: 15px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.016em;
+  margin: 10px 0px 30px 0px; 
+  color: #424245;
+}
+
+.memory_subheading_imac_mac {
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.016em;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+  color: #424245;
+}
+
+.memory_subheading_imac_mac sup {
+  font-size: 10px;
+}
+
+.memory_sub_subheading_imac_mac {
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.016em;
+  text-align: center;
+  margin-top: 0px;
+  color: #828285;
+}
+
+#display_subheading_imac24 {
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.020em;
+  text-align: center;
+  margin: 5px 0px 0px 0px;
+  color: #424245;
+}
+
+#display_sub_subheading_imac24{
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.016em;
+  text-align: center;
+  margin-top: 0px;
+  color: #828285;
+}
+
+#facetime_subheading_imac24 {
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.020em;
+  text-align: center;
+  margin: 5px 0px 0px 0px;
+  color: #424245;
+}
+
+#facetime_sub_subheading_imac24{
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.016em;
+  text-align: center;
+  margin-top: 0px;
+  color: #828285;
+}
+
+#touchid_img_imac24{
+  background-image: url("../Mac/Images/compare_icon_imac24_keyboard.png");
+}
+
+#macmini_img {
+  background-image: url('../Mac/Images/compare_macmini.png');
+  width: 212px;
+  height: 176px;
+  background-size: 212px 176px;
+  background-repeat: no-repeat;
+  display: block;
+  margin:0px auto;
+}
+
+#colors_options_macmini {
+  background-image: url('../Mac/Images/compare_swatches_two_colors_mac_mini.png');
+  width: 32px;
+    height: 14px;
+    background-size: 32px 14px;
+    background-repeat: no-repeat;
+}
+
+#cpu_container_macmini{
+  margin-top: 10px;
+} 
+
+#chip_text_macmini {
+  font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    text-align: center;
+    color: #424245;
+    margin: 10px 0px 0px 0px;
+}
+
+#chip_text_macmini_subheading {
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.016em;
+  text-align: center;
+  margin: 0px 0px 4px 0px;
+  color: #828285;
+}
+
+
+.dash_container_mac {
+  margin-top: 40px;
+  height: 80px;
+}
+
+.dash_dash {
+  font-size: px;
+  line-height: 1.42859;
+  font-weight: 600;
+  letter-spacing: -.016em;
+  display: block;
+  margin: 30px 0px;
+  text-align: center;
+  color: #828285;
+}
+
+.dash_container_mm_ms_ft{
+  margin-top: 67px;
+  height: 80px;
+}
+
+.dash_container_mm_ms_ti{
+  margin-top: 100px;
+  height: 80px;
+}
+
+
+#macstudio_img {
+  background-image: url('../Mac/Images/compare_macstudio.png');
+  width: 212px;
+  height: 176px;
+  background-size: 212px 176px;
+  background-repeat: no-repeat;
+  display: block;
+  margin:0px auto;
+}
+
+.colors_options_ms_mp{
+  background-image: url('../Mac/Images/compare_swatches_one_color.png');
+  width: 14px;
+  height: 14px;
+  background-size: 14px 14px;
+  background-repeat: no-repeat;
+  margin-bottom: 0px;
+}
+
+#new_text_ms {
+  color:  #bf4800;
+  margin: 5px 0px 0px 0px;
+  font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+  position: relative;
+}
+
+#ms_heading {
+  font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 500;
+    letter-spacing: .009em;
+    margin: 0px 0px 0px 0px; 
+}
+
+#ms_price {
+  font-size: 15px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.016em;
+  margin: 10px 0px 30px 0px; 
+  color: #424245;
+}
+
+#mp_img {
+  background-image: url('../Mac/Images/compare_macpro.png');
+  width: 212px;
+  height: 176px;
+  background-size: 212px 176px;
+  background-repeat: no-repeat;
+  display: block;
+  margin:0px auto;
+}
+
+#mpro_chip_img {
+  background-image: url('../Mac/Images/compare_icon_intel.png');
+  width: 48px;
+  height: 44px;
+  background-size: 48px 44px;
+  background-repeat: no-repeat;
+  margin: auto;
+}
